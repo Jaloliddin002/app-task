@@ -1,0 +1,11 @@
+package uz.spring.apptask
+
+enum class ErrorCode(val code: Int) {
+    USER_NAME_EXIST(100),
+    USER_NOT_FOUND(101),
+    TRANSACTION_NOT_FOUND(102),
+    CATEGORY_NOT_FOUND(103),
+    PRODUCT_NOT_FOUND(104),
+    TRANSACTION_ITEM_NOT_FOUND(105),
+    USER_PAYMENT_TRANSACTION_NOT_FOUND(106),
+}
